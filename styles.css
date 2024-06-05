@@ -1,0 +1,232 @@
+.banner__content {
+  display: flex;
+  justify-content: center;
+  max-height: 110px;
+}
+
+
+.img_container {
+display: flex;
+justify-content: center;
+flex-direction: row;
+
+}
+
+
+.joyouslogo {
+  margin-top: none;
+  position:static;
+    height: 100%;
+    max-height: 5vw;
+    
+}
+
+.joyouslogo img {
+  margin-top: none;
+  height:110px;
+  }
+  
+  
+.bannertext {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;  
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    flex-direction: row;
+    white-space: pre-wrap;
+    max-width: 80%;
+  }
+
+
+
+
+@media screen and (min-width: 721px) {
+  div.banner {
+    font-size:1vw;
+  }
+  .bannertext {
+    flex-direction:row;
+    justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 720px) {
+  div.banner {
+    font-size: 2vw;
+  }
+
+  .bannertext {
+    flex-direction:column;
+    justify-content: center;
+  }
+}
+
+.banner {
+    position: static;
+    background-color: rgb(132, 218, 255);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 95%;
+    max-height:110px;
+   
+}
+
+
+
+
+
+nav {
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(132, 218, 255);
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Mali", cursive;
+  height:100%;
+}
+
+
+.main {
+    clear:both;
+    background-color: pink;
+    width: 90%;
+    padding:20px;
+    margin:auto;
+    margin-bottom: 100%;
+    border-radius: 10px;
+    
+
+}
+
+.location {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content:flex-start;
+}
+
+
+.timetable {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content:flex-start;
+}
+
+h1{
+  margin:0
+}
+
+
+
+/* FONTS 
+
+.mali-extralight {
+  font-family: "Mali", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.mali-light {
+  font-family: "Mali", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.mali-regular {
+  font-family: "Mali", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mali-medium {
+  font-family: "Mali", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mali-semibold {
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.mali-bold {
+  font-family: "Mali", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mali-extralight-italic {
+  font-family: "Mali", cursive;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.mali-light-italic {
+  font-family: "Mali", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.mali-regular-italic {
+  font-family: "Mali", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mali-medium-italic {
+  font-family: "Mali", cursive;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.mali-semibold-italic {
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.mali-bold-italic {
+  font-family: "Mali", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+*/
